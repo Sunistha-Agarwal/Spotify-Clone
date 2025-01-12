@@ -111,3 +111,71 @@
   margin-right: 3px;
   background-color: rgb(251, 243, 243);
 }
+@media screen and (max-width: 768px) {
+  .header-container {
+    flex-wrap: wrap;
+    padding: 10px;
+    height: auto;
+  }
+
+  .spotify-logo {
+    margin-left: 10px;
+    margin-top: 0;
+    width: 35px;
+  }
+
+  .header-middlesection {
+    margin-top: 0px;
+    justify-content: space-around;
+  }
+
+  .search-logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+  }
+
+  .search-button {
+    display: none;
+  }
+
+  .header-rightsection {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .sign-up-button,
+  .log-in-button {
+    font-size: 12px;
+    padding: 8px 15px;
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header-middlesection {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .home-button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .search-logo img {
+    width: 20px;
+  }
+
+  .search-button {
+    display: none ;
+  }
+
+  .sign-up-button,
+  .log-in-button {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+}

@@ -42,6 +42,9 @@
   margin-top: 70px;
   overflow-y:auto;
 }
+.sidebar-scroll-content::-webkit-scrollbar{
+  display: none;
+}
 .new-playlist-container,
 .podcast-browsing-container {
   background-color: #1f1f1f;
@@ -149,4 +152,9 @@
   font-size: 13px;
   font-weight: 600;
   margin-left: 4px;
+}
+@media screen and (max-width: 768px) {
+  .sidebar-container {
+    display: none; /* Hides the entire sidebar */
+  }
 }

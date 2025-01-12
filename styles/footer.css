@@ -1,0 +1,91 @@
+footer{
+    position: fixed;
+    bottom: 8px;
+    left: 8px;
+    right: 10px;
+    height: 65px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #af2896, #509bf5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer p{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .preview{
+    color: White;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  .message{
+    color: White;
+    font-size: 14px;
+    font-weight: 450;
+  }
+  .sign-up-free{
+    color: black;
+    background-color: white;
+    padding: 15px 27px;
+    border-radius: 40px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .sign-up-free:hover{
+    background-color: rgb(234, 234, 234);
+  }
+  @media screen and (max-width: 768px) {
+    footer {
+      height: 45px; /* Smaller height */
+      padding-left: 8px;
+      padding-right: 16px;
+      padding-top: 3px; /* Smaller padding */
+      padding-bottom: 3px; /* Smaller padding */
+    }
+  
+    .preview {
+      font-size: 9px; /* Decreased font size */
+      margin-bottom: 2px;
+    }
+  
+    .message {
+      font-size: 10px; /* Decreased font size */
+    }
+  
+    .sign-up-free {
+      padding: 8px 15px; /* Reduced padding for button */
+      font-size: 12px; /* Smaller font size for button */
+    }
+  }
+  
+  /* Media Query for Very Small Screens (max-width: 480px) */
+  @media screen and (max-width: 480px) {
+    footer {
+      height: 40px; /* Even smaller height */
+      padding-left: 5px;
+      padding-right: 10px;
+      padding-top: 2px; /* Further reduced padding */
+      padding-bottom: 2px; /* Further reduced padding */
+    }
+  
+    .preview {
+      font-size: 8px; /* Further reduced font size */
+      margin-bottom: 1px;
+    }
+  
+    .message {
+      font-size: 9px; /* Further reduced font size */
+    }
+  
+    .sign-up-free {
+      padding: 6px 12px; /* Further reduced padding for button */
+      font-size: 10px; /* Further reduced font size */
+    }
+  }

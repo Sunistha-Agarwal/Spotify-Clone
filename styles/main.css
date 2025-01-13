@@ -232,4 +232,10 @@ main p {
     display: flex;
     flex-direction: column;
   }
+  .social-links-container{
+    justify-content: end;
+  }
+  .heading{
+    margin-top: 10px;
+  }
 }

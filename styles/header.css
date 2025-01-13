@@ -113,7 +113,7 @@
 }
 @media screen and (max-width: 768px) {
   .header-container {
-    flex-wrap: wrap;
+    align-items: center;
     padding: 10px;
     height: auto;
   }
@@ -141,41 +141,55 @@
 
   .header-rightsection {
     margin-top: 0px;
+    flex: 1;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: end;
   }
 
   .sign-up-button,
   .log-in-button {
-    font-size: 12px;
+    font-size: 15px;
     padding: 8px 15px;
     margin: 5px;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .header-middlesection {
-    flex-wrap: wrap;
-    justify-content: center;
+  .header-container{
+    display:flex;
+    align-items: center;
+    padding-right: 0;
+    padding-left: 0;
   }
 
-  .home-button {
+  .home-button{
     width: 40px;
     height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
   }
 
   .search-logo img {
     width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .search-button {
     display: none ;
   }
-
+.header-rightsection{
+  flex: 1;
+  padding-right: 0;
+  display: flex;
+  justify-content: end;
+}
   .sign-up-button,
   .log-in-button {
     padding: 5px 10px;
-    font-size: 10px;
+    font-size: 14px;
   }
 }
